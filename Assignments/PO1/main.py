@@ -54,7 +54,7 @@ def drawLine(city):
   }
 
 
-
+#appending the long,lat for coordinates
   for cities in city:
     feature['geometry']['coordinates'].append([city[cities]['longitude'], city[cities]['latitude']])
 
@@ -98,10 +98,10 @@ for city in statesDict:
       #stores the state and the city with highest population
       maxCityPop[city] = statePop
       
-
+#sort the points
 maxCityPop1 = sorted(maxCityPop.items(), key = lambda x:x[1]['longitude'])
 
-
+#converts back to a dict of dicts
 maxCityPop = dict(maxCityPop1)
 
 
@@ -109,18 +109,12 @@ points = []
 noMSymbol= 1
 
 
-
-
 for states in maxCityPop:
-  # print(maxCityPop[states])
   points.append(plotPoint(maxCityPop[states], noMSymbol))
-  # points.append(drawLine(maxCityPop[states]))
-
   noMSymbol = noMSymbol + 1
-  # coordinates.append(drawLine(maxCityPop[states]))
-# print(sortCity(points))
+
 points.append(drawLine(maxCityPop))
-# print(drawLine(maxCityPop))
+
 
 
 #writing a geojson file
