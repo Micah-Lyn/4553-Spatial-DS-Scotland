@@ -1,14 +1,13 @@
-11172 - Relational Operator
+P01 - Convert and Display City Data
 ### Micah-Lyn Scotland
 ### Description:
 
-Given two numerical values your job is just to find out the relationship between them
-that is (i) First one is greater than the second (ii) First one is less than the second or (iii) First and
-second one is equal.
+Create a geoJson file that contains a fictitious route visiting the single most populated city in each state. Only the continental US and DC, but not Alaska or Hawaii
 
 ### Files
 
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
-|   1   | [main.cpp](https://github.com/Micah-Lyn/4883-Programming_Techniques-Scotland/blob/master/Assignments/A03/11172/main.cpp)     | solution file.                                             |
-|   2   | [input](https://github.com/Micah-Lyn/4883-Programming_Techniques-Scotland/blob/master/Assignments/A03/11172/input)           | Test input file from problem statement                     |
+|   1   | [main.py](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO1/main.py)     | solution file.                                             |
+|   2   | [input](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO1/cities.json)           | Test input file from problem statement                     |
+|   3   | [output](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO1/new.geojson)           |Output from problem statement                     |
