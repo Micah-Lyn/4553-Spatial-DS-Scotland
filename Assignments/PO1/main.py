@@ -36,6 +36,8 @@ def plotPoint(city,noMSymbol):
     else:
       feature['properties'][key] = val
 
+  
+
   return feature
 
 def drawLine(city):
@@ -51,42 +53,15 @@ def drawLine(city):
     }
   }
 
+
+
   for cities in city:
     feature['geometry']['coordinates'].append([city[cities]['longitude'], city[cities]['latitude']])
 
 
   return feature
 
-# def sortCity(states):
-#   # load the json
-#   # fp = open("new.geojson")
-#   # states = json.load(fp)["features"]
-#   #  which cities have I used already
-#   used = []
 
-#   # stupid large number
-#   minimum = 99999999
-
-#   # outer loop
-#   for j in range(len(states)):
-#     # inner loop 
-#     for i in range(len(states)):
-#      # is this value the new minimum?
-#       print(states[i])
-#       if i != j and states[i]["geometry"]["coordinates"][0] < minimum:
-#       # if so, save it AND its index
-#         if not i in used:
-#           minimum = states[i]["geometry"]["coordinates"][0]
-#           current = i
-#   # current minimum gets saved
-#     if not current in used:
-#       used.append(current)
-
-#    # reset minimum value
-#     minimum = 99999999
-
-# # order in which cities should appear is here 
-#   return(used)
 
 
 
@@ -106,9 +81,7 @@ for newCity in data:
     # append cities with similar state
     statesDict[newCity["state"]].append(newCity)
 
-# print(statesDict)
 
-# print("\n\n")
 
 #set the max population to 0
 maxPop = 0
@@ -125,18 +98,16 @@ for city in statesDict:
       #stores the state and the city with highest population
       maxCityPop[city] = statePop
       
-# print("maxpop", maxPop)
 
-# print(maxCityPop)
+maxCityPop1 = sorted(maxCityPop.items(), key = lambda x:x[1]['longitude'])
 
-# citySorted = sortCity(maxCityPop)
 
-    
+maxCityPop = dict(maxCityPop1)
 
 
 points = []
 noMSymbol= 1
-coordinates =[]
+
 
 
 
@@ -149,9 +120,8 @@ for states in maxCityPop:
   # coordinates.append(drawLine(maxCityPop[states]))
 # print(sortCity(points))
 points.append(drawLine(maxCityPop))
+# print(drawLine(maxCityPop))
 
-
-# print(points)
 
 #writing a geojson file
 with open("new.geojson", "w") as f:
