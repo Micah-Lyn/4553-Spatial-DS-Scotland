@@ -11,5 +11,5 @@ This program loads data files into a geopandas geoseries spatial index. It calcu
 |   1   | [main.py](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO2/main.py)     | solution file.                                             |
 |   2   | [input-ufo](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO2/ufo_data.csv)           | Input- UFO Data                    |
 |   3   | [input-cities](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO2/cities.geojson)           | Input - Cities                     |
-|   4   | [output-100 ufos(https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO2/cityaverageufo.json)           | Average distance to 100 closest UFO's                  |
-|   5   | [output-cities distances](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO2/citydistance.json           |Distances from each city to another                    |
+|   4   | [output-100 ufos](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO2/cityaverageufo.json)           | Average distance to 100 closest UFO's                  |
+|   5   | [output-cities distances](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO2/citydistance.json)          |Distances from each city to another                    |
