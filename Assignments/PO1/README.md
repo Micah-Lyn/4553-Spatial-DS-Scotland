@@ -9,5 +9,5 @@ Create a geoJson file that contains a fictitious route visiting the single most 
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
 |   1   | [main.py](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO1/main.py)     | solution file.                                             |
-|   2   | [input](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO1/cities_latlon_w_pop.json)           | Test input file from problem statement                     |
+|   2   | [input](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO1/cities.json)           | Test input file from problem statement                     |
 |   3   | [output](https://github.com/Micah-Lyn/4553-Spatial-DS-Scotland/blob/main/Assignments/PO1/new.geojson)           |Output from problem statement                     |
