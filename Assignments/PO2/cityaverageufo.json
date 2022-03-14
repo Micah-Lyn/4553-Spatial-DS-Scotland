@@ -1,1 +1,394 @@
-[{"city": "Portland", "coordinates": [-122.676482, 45.523062], "average distance": 0.016859891035451383}, {"city": "Seattle", "coordinates": [-122.332071, 47.606209], "average distance": 0.0066756605335176475}, {"city": "Los Angeles", "coordinates": [-118.243685, 34.052234], "average distance": 0.03628221077141805}, {"city": "Boise City", "coordinates": [-116.214607, 43.61871], "average distance": 0.030371943174118204}, {"city": "Las Vegas", "coordinates": [-115.13983, 36.169941], "average distance": 0.054864252279434346}, {"city": "Phoenix", "coordinates": [-112.074037, 33.448377], "average distance": 0.09040822278573363}, {"city": "Salt Lake City", "coordinates": [-111.891047, 40.760779], "average distance": 0.057014364879463784}, {"city": "Billings", "coordinates": [-108.50069, 45.783286], "average distance": 0.2062699703331068}, {"city": "Albuquerque", "coordinates": [-106.605553, 35.085334], "average distance": 0.019422613734179695}, {"city": "Denver", "coordinates": [-104.990251, 39.739236], "average distance": 0.03146139420735262}, {"city": "Cheyenne", "coordinates": [-104.820246, 41.139981], "average distance": 0.35365182436057746}, {"city": "Oklahoma City", "coordinates": [-97.516428, 35.46756], "average distance": 0.010771756748221948}, {"city": "Wichita", "coordinates": [-97.336111, 37.688889], "average distance": 0.009977950199569728}, {"city": "Fargo", "coordinates": [-96.789803, 46.877186], "average distance": 0.5319073622097071}, {"city": "Sioux Falls", "coordinates": [-96.731103, 43.544596], "average distance": 0.14043818206952488}, {"city": "Omaha", "coordinates": [-95.997988, 41.252363], "average distance": 0.06688616859900526}, {"city": "Houston", "coordinates": [-95.369803, 29.760427], "average distance": 0.08318697633982695}, {"city": "Kansas City", "coordinates": [-94.578567, 39.099727], "average distance": 0.014131223314225167}, {"city": "Des Moines", "coordinates": [-93.609106, 41.600545], "average distance": 0.009838337347220371}, {"city": "Minneapolis", "coordinates": [-93.265011, 44.977753], "average distance": 0.02845867728592784}, {"city": "Little Rock", "coordinates": [-92.289595, 34.746481], "average distance": 0.08661630381595056}, {"city": "Jackson", "coordinates": [-90.18481, 32.298757], "average distance": 0.18465161465581395}, {"city": "New Orleans", "coordinates": [-90.071532, 29.951066], "average distance": 0.04083140558324728}, {"city": "Memphis", "coordinates": [-90.04898, 35.149534], "average distance": 0.12295343527384152}, {"city": "Milwaukee", "coordinates": [-87.906474, 43.038902], "average distance": 0.055030828037161285}, {"city": "Chicago", "coordinates": [-87.629798, 41.878114], "average distance": 0.038262243480346035}, {"city": "Birmingham", "coordinates": [-86.80249, 33.520661], "average distance": 0.08381129260232992}, {"city": "Indianapolis", "coordinates": [-86.158068, 39.768403], "average distance": 0.04232711894746979}, {"city": "Louisville/Jefferson County", "coordinates": [-85.758456, 38.252665], "average distance": 0.07980647393612175}, {"city": "Atlanta", "coordinates": [-84.387982, 33.748995], "average distance": 0.05974074754548325}, {"city": "Detroit", "coordinates": [-83.045754, 42.331427], "average distance": 0.07277195941261029}, {"city": "Columbus", "coordinates": [-82.998794, 39.961176], "average distance": 0.04224476120284712}, {"city": "Jacksonville", "coordinates": [-81.655651, 30.332184], "average distance": 0.07618506313069505}, {"city": "Charleston", "coordinates": [-81.632623, 38.34982], "average distance": 0.1954822455090154}, {"city": "Columbia", "coordinates": [-81.034814, 34.00071], "average distance": 0.0910760389437565}, {"city": "Charlotte", "coordinates": [-80.843127, 35.227087], "average distance": 0.027077213726077673}, {"city": "Washington", "coordinates": [-77.036871, 38.907192], "average distance": 0.011878314807561257}, {"city": "Baltimore", "coordinates": [-76.612189, 39.290385], "average distance": 0.02269066194518031}, {"city": "Virginia Beach", "coordinates": [-75.977985, 36.852926], "average distance": 0.08540456524495708}, {"city": "Wilmington", "coordinates": [-75.539788, 39.739072], "average distance": 0.09151471765069569}, {"city": "Philadelphia", "coordinates": [-75.165222, 39.952584], "average distance": 0.042720598721025765}, {"city": "Newark", "coordinates": [-74.172367, 40.735657], "average distance": 0.05096701444106972}, {"city": "New York", "coordinates": [-74.005941, 40.712784], "average distance": 0.03640803765676323}, {"city": "Burlington", "coordinates": [-73.212072, 44.475882], "average distance": 0.10340948795844165}, {"city": "Bridgeport", "coordinates": [-73.195177, 41.186548], "average distance": 0.04527281099992456}, {"city": "Manchester", "coordinates": [-71.454789, 42.99564], "average distance": 0.07099524500239253}, {"city": "Providence", "coordinates": [-71.412834, 41.823989], "average distance": 0.03378617692525499}, {"city": "Boston", "coordinates": [-71.05888, 42.360082], "average distance": 0.02032127505349693}, {"city": "Portland", "coordinates": [-70.255326, 43.661471], "average distance": 0.09207249120610855}]
+[
+  {
+    "city": "Portland",
+    "coordinates": [
+      -122.676482,
+      45.523062
+    ],
+    "average distance": 0.016859891035451383
+  },
+  {
+    "city": "Seattle",
+    "coordinates": [
+      -122.332071,
+      47.606209
+    ],
+    "average distance": 0.0066756605335176475
+  },
+  {
+    "city": "Los Angeles",
+    "coordinates": [
+      -118.243685,
+      34.052234
+    ],
+    "average distance": 0.03628221077141805
+  },
+  {
+    "city": "Boise City",
+    "coordinates": [
+      -116.214607,
+      43.61871
+    ],
+    "average distance": 0.030371943174118204
+  },
+  {
+    "city": "Las Vegas",
+    "coordinates": [
+      -115.13983,
+      36.169941
+    ],
+    "average distance": 0.054864252279434346
+  },
+  {
+    "city": "Phoenix",
+    "coordinates": [
+      -112.074037,
+      33.448377
+    ],
+    "average distance": 0.09040822278573363
+  },
+  {
+    "city": "Salt Lake City",
+    "coordinates": [
+      -111.891047,
+      40.760779
+    ],
+    "average distance": 0.057014364879463784
+  },
+  {
+    "city": "Billings",
+    "coordinates": [
+      -108.50069,
+      45.783286
+    ],
+    "average distance": 0.2062699703331068
+  },
+  {
+    "city": "Albuquerque",
+    "coordinates": [
+      -106.605553,
+      35.085334
+    ],
+    "average distance": 0.019422613734179695
+  },
+  {
+    "city": "Denver",
+    "coordinates": [
+      -104.990251,
+      39.739236
+    ],
+    "average distance": 0.03146139420735262
+  },
+  {
+    "city": "Cheyenne",
+    "coordinates": [
+      -104.820246,
+      41.139981
+    ],
+    "average distance": 0.35365182436057746
+  },
+  {
+    "city": "Oklahoma City",
+    "coordinates": [
+      -97.516428,
+      35.46756
+    ],
+    "average distance": 0.010771756748221948
+  },
+  {
+    "city": "Wichita",
+    "coordinates": [
+      -97.336111,
+      37.688889
+    ],
+    "average distance": 0.009977950199569728
+  },
+  {
+    "city": "Fargo",
+    "coordinates": [
+      -96.789803,
+      46.877186
+    ],
+    "average distance": 0.5319073622097071
+  },
+  {
+    "city": "Sioux Falls",
+    "coordinates": [
+      -96.731103,
+      43.544596
+    ],
+    "average distance": 0.14043818206952488
+  },
+  {
+    "city": "Omaha",
+    "coordinates": [
+      -95.997988,
+      41.252363
+    ],
+    "average distance": 0.06688616859900526
+  },
+  {
+    "city": "Houston",
+    "coordinates": [
+      -95.369803,
+      29.760427
+    ],
+    "average distance": 0.08318697633982695
+  },
+  {
+    "city": "Kansas City",
+    "coordinates": [
+      -94.578567,
+      39.099727
+    ],
+    "average distance": 0.014131223314225167
+  },
+  {
+    "city": "Des Moines",
+    "coordinates": [
+      -93.609106,
+      41.600545
+    ],
+    "average distance": 0.009838337347220371
+  },
+  {
+    "city": "Minneapolis",
+    "coordinates": [
+      -93.265011,
+      44.977753
+    ],
+    "average distance": 0.02845867728592784
+  },
+  {
+    "city": "Little Rock",
+    "coordinates": [
+      -92.289595,
+      34.746481
+    ],
+    "average distance": 0.08661630381595056
+  },
+  {
+    "city": "Jackson",
+    "coordinates": [
+      -90.18481,
+      32.298757
+    ],
+    "average distance": 0.18465161465581395
+  },
+  {
+    "city": "New Orleans",
+    "coordinates": [
+      -90.071532,
+      29.951066
+    ],
+    "average distance": 0.04083140558324728
+  },
+  {
+    "city": "Memphis",
+    "coordinates": [
+      -90.04898,
+      35.149534
+    ],
+    "average distance": 0.12295343527384152
+  },
+  {
+    "city": "Milwaukee",
+    "coordinates": [
+      -87.906474,
+      43.038902
+    ],
+    "average distance": 0.055030828037161285
+  },
+  {
+    "city": "Chicago",
+    "coordinates": [
+      -87.629798,
+      41.878114
+    ],
+    "average distance": 0.038262243480346035
+  },
+  {
+    "city": "Birmingham",
+    "coordinates": [
+      -86.80249,
+      33.520661
+    ],
+    "average distance": 0.08381129260232992
+  },
+  {
+    "city": "Indianapolis",
+    "coordinates": [
+      -86.158068,
+      39.768403
+    ],
+    "average distance": 0.04232711894746979
+  },
+  {
+    "city": "Louisville/Jefferson County",
+    "coordinates": [
+      -85.758456,
+      38.252665
+    ],
+    "average distance": 0.07980647393612175
+  },
+  {
+    "city": "Atlanta",
+    "coordinates": [
+      -84.387982,
+      33.748995
+    ],
+    "average distance": 0.05974074754548325
+  },
+  {
+    "city": "Detroit",
+    "coordinates": [
+      -83.045754,
+      42.331427
+    ],
+    "average distance": 0.07277195941261029
+  },
+  {
+    "city": "Columbus",
+    "coordinates": [
+      -82.998794,
+      39.961176
+    ],
+    "average distance": 0.04224476120284712
+  },
+  {
+    "city": "Jacksonville",
+    "coordinates": [
+      -81.655651,
+      30.332184
+    ],
+    "average distance": 0.07618506313069505
+  },
+  {
+    "city": "Charleston",
+    "coordinates": [
+      -81.632623,
+      38.34982
+    ],
+    "average distance": 0.1954822455090154
+  },
+  {
+    "city": "Columbia",
+    "coordinates": [
+      -81.034814,
+      34.00071
+    ],
+    "average distance": 0.0910760389437565
+  },
+  {
+    "city": "Charlotte",
+    "coordinates": [
+      -80.843127,
+      35.227087
+    ],
+    "average distance": 0.027077213726077673
+  },
+  {
+    "city": "Washington",
+    "coordinates": [
+      -77.036871,
+      38.907192
+    ],
+    "average distance": 0.011878314807561257
+  },
+  {
+    "city": "Baltimore",
+    "coordinates": [
+      -76.612189,
+      39.290385
+    ],
+    "average distance": 0.02269066194518031
+  },
+  {
+    "city": "Virginia Beach",
+    "coordinates": [
+      -75.977985,
+      36.852926
+    ],
+    "average distance": 0.08540456524495708
+  },
+  {
+    "city": "Wilmington",
+    "coordinates": [
+      -75.539788,
+      39.739072
+    ],
+    "average distance": 0.09151471765069569
+  },
+  {
+    "city": "Philadelphia",
+    "coordinates": [
+      -75.165222,
+      39.952584
+    ],
+    "average distance": 0.042720598721025765
+  },
+  {
+    "city": "Newark",
+    "coordinates": [
+      -74.172367,
+      40.735657
+    ],
+    "average distance": 0.05096701444106972
+  },
+  {
+    "city": "New York",
+    "coordinates": [
+      -74.005941,
+      40.712784
+    ],
+    "average distance": 0.03640803765676323
+  },
+  {
+    "city": "Burlington",
+    "coordinates": [
+      -73.212072,
+      44.475882
+    ],
+    "average distance": 0.10340948795844165
+  },
+  {
+    "city": "Bridgeport",
+    "coordinates": [
+      -73.195177,
+      41.186548
+    ],
+    "average distance": 0.04527281099992456
+  },
+  {
+    "city": "Manchester",
+    "coordinates": [
+      -71.454789,
+      42.99564
+    ],
+    "average distance": 0.07099524500239253
+  },
+  {
+    "city": "Providence",
+    "coordinates": [
+      -71.412834,
+      41.823989
+    ],
+    "average distance": 0.03378617692525499
+  },
+  {
+    "city": "Boston",
+    "coordinates": [
+      -71.05888,
+      42.360082
+    ],
+    "average distance": 0.02032127505349693
+  },
+  {
+    "city": "Portland",
+    "coordinates": [
+      -70.255326,
+      43.661471
+    ],
+    "average distance": 0.09207249120610855
+  }
+]
