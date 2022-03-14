@@ -1,0 +1,119 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Portland",
+                "growth": 15,
+                "population": 609456,
+                "rank": 29,
+                "state": "Oregon",
+                "marker-color": "#879CB9",
+                "marker-size": "medium"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.676482,
+                    45.523062
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Seattle",
+                "growth": 15.6,
+                "population": 652405,
+                "rank": 21,
+                "state": "Washington",
+                "marker-color": "#14F334",
+                "marker-size": "medium"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.332071,
+                    47.606209
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Los Angeles",
+                "growth": 4.8,
+                "population": 3884307,
+                "rank": 2,
+                "state": "California",
+                "marker-color": "#5F2B67",
+                "marker-size": "medium"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.243685,
+                    34.052234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Boise City",
+                "growth": 9.5,
+                "population": 214237,
+                "rank": 98,
+                "state": "Idaho",
+                "marker-color": "#94EEF1",
+                "marker-size": "medium"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.214607,
+                    43.61871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Las Vegas",
+                "growth": 24.5,
+                "population": 603488,
+                "rank": 30,
+                "state": "Nevada",
+                "marker-color": "#F3E40F",
+                "marker-size": "medium"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.13983,
+                    36.169941
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Phoenix",
+                "growth": 14,
+                "population": 1513367,
+                "rank": 6,
+                "state": "Arizona",
+                "marker-color": "#D2E3F1",
+                "marker-size": "medium"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.074037,
+                    33.448377
+                ]
+            }
+        }
+    ]
+}
