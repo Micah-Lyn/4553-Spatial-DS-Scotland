@@ -1,7 +1,7 @@
-P02 - Nearest Neighbor with UFO's
+P03 - Voronoi - Real World Use Case
 ### Micah-Lyn Scotland
 ### Description:
-This program loads data files into a geopandas geoseries spatial index. It calculates the distance from each city to every other city and store those values in either a csv or json file for use at a later time.A metric or threshold to "assign" a UFO sighting to a particular cit and the average distance to the 100 closest UFO's is calculated.
+This program creates a voronoi diagram over the US creating polygons around each of the 49 cities. The UFO's are loaded into a spatial tree (geopandas rtree). The rtree is queried getting the UFO sighting points that are contained within each polygon. Results are saved to a json file for future use.
 
 
 ### Files
