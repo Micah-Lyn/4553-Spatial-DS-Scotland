@@ -37,12 +37,6 @@ for point in range(toPoints):
     pointsForTree.append([circleX, circleY])
 
 
-
-#LOAD POINT TO QUADTREE
-
-
-
-
 done = False
 
 bbox = Rect((quadTree.screen_width//2), (quadTree.screen_height//2), 0, 0)
