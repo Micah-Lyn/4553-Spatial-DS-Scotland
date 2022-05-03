@@ -17,9 +17,6 @@ pygame.init()
 pygame.display.set_caption('PO7')
 
 
-#create random points
-
-# creating a bool value which checks
 
 #array to store points to go in quadtree
 pointsForTree = []
