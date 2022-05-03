@@ -10,7 +10,7 @@ def openFile(fName):
     jData = json.loads(data.to_json(drop_id = True))
     jData = jData["features"]
     
-    # returns a list of json obects and a gdf
+
     return data, jData
 
 if __name__ == "__main__":
@@ -50,37 +50,30 @@ if __name__ == "__main__":
         #ADDS INDEX TO CINDEX AND CALCULATES POPULATION FOR EACH STATE
         for j in range(len(within_poly)):
             if within_poly[j] == True:
-                # index comes after column name in dataframes
+               
                 population += citiesGDF["population"][j]
 
-                 # index comes before keys in list of dictionaries
-                # this appends the index of each cities that is "within" a state polygon
                 states[i]["properties"]["cIndex"].append(j)
 
-        # converted pop to a regular int since it was int64 and is not serializable by json
-        #STORE POPULATION
+
         states[i]["properties"]["population"] = int(population)
 
-    # sort features using population to assign color easier
+    # apply color : sort features using population
     feature_list = sorted(states, key=lambda i: (
         i["properties"]["population"]), reverse=True)
 
 
     #ASSIGN COLOR TO STATE AND ASSOCIATED CITY
-    # used as an index
     j = 0
     for i in range(len(colors)):
 
         count = 0
         while j < len(feature_list):
         
-            # Changes the color, opacity and line around country for polygons
             feature_list[j]["properties"]["fill"] = colors[i]
             feature_list[j]["properties"]["fill-opacity"] = 1
             feature_list[j]["properties"]["stroke-width"] = 1
 
-            # Looking at the list of cities indexes for each feature to 
-            # change color and append to the feature list
             if "cIndex" in feature_list[j]["properties"]:
                 points = feature_list[j]["properties"]["cIndex"]
                 for point in points:
