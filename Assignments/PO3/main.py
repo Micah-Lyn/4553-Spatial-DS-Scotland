@@ -15,12 +15,10 @@ from pyproj import Transformer
 
 
 from shapely.ops import unary_union
-# from shapely.geometry import Polygon, mapping
 from geovoronoi.plotting import subplot_for_map, plot_voronoi_polys_with_points_in_area
 from geovoronoi import voronoi_regions_from_coords, points_to_coords
 
 
-# ufodf = pd.read_csv("data/ufo_data.csv")
 
 #loads cities/points into geodatframes
 citiesgdf = gpd.read_file("data/cities.geojson")
