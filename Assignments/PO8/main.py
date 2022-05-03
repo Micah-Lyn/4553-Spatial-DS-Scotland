@@ -55,7 +55,6 @@ if __name__ == "__main__":
 
                 states[i]["properties"]["cIndex"].append(j)
 
-
         states[i]["properties"]["population"] = int(population)
 
     # apply color : sort features using population
@@ -74,13 +73,15 @@ if __name__ == "__main__":
             feature_list[j]["properties"]["fill-opacity"] = 1
             feature_list[j]["properties"]["stroke-width"] = 1
 
+            #change color for each feature and append to feature list
             if "cIndex" in feature_list[j]["properties"]:
                 points = feature_list[j]["properties"]["cIndex"]
                 for point in points:
                     cities[point]["properties"]["marker-color"] = colors[i]
                     cities[point]["properties"]["marker-size"] = "small"
                     feature_list.append(cities[point])
-
+            #color 5 polygons, break and chose another color
+            #repeated until all polygons have color
             if count == 5 and j < 49:
                 j += 1
                 break
